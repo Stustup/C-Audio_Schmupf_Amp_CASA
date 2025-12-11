@@ -578,6 +578,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -2805,12 +2912,165 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Relay and digital supply\n"
+		(exclude_from_sim no)
+		(at 239.014 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a5b4fbd2-0ad1-4f3e-b48b-ad7da9e04a25")
+	)
+	(junction
+		(at 241.3 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "255e4667-c5af-468f-bff2-a86aadbe8c16")
 	)
 	(junction
 		(at 151.13 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d3c6eb6-666d-4bb6-9c9c-0a3bdbd5ce94")
+	)
+	(junction
+		(at 232.41 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aed3235-af18-450f-9492-c07fee66f150")
+	)
+	(junction
+		(at 248.92 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77bae56e-df99-4712-adf5-aaab1e49b73f")
 	)
 	(junction
 		(at 140.97 34.29)
@@ -2825,10 +3085,32 @@
 		(uuid "b986847c-b62f-4aa1-85c6-ef05346170d7")
 	)
 	(junction
+		(at 251.46 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8376ea0-5694-4ce6-a5e4-e75b6228fc87")
+	)
+	(junction
+		(at 241.3 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e98a621e-981e-4644-aad0-e2b38c192523")
+	)
+	(junction
 		(at 130.81 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5d03aeb-d39e-4169-a440-3f705592ac41")
+	)
+	(wire
+		(pts
+			(xy 255.27 133.35) (xy 255.27 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01f2ea50-bbe8-4947-b991-1f81ff8d1956")
 	)
 	(wire
 		(pts
@@ -2839,6 +3121,16 @@
 			(type default)
 		)
 		(uuid "0b362926-5aee-40c6-8ade-ac57a77a319d")
+	)
+	(wire
+		(pts
+			(xy 241.3 142.24) (xy 241.3 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1644d159-a483-4b73-b4f6-d58c871e4eff")
 	)
 	(wire
 		(pts
@@ -2862,6 +3154,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 143.51) (xy 251.46 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2383aaa6-820e-4254-949e-3f40afd8c6f2")
+	)
+	(wire
+		(pts
 			(xy 175.26 59.69) (xy 184.15 59.69)
 		)
 		(stroke
@@ -2872,6 +3174,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 134.62) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "256fb29a-52c7-4340-a1c5-0345a3061dcc")
+	)
+	(wire
+		(pts
 			(xy 151.13 27.94) (xy 151.13 25.4)
 		)
 		(stroke
@@ -2879,6 +3191,16 @@
 			(type default)
 		)
 		(uuid "26fd6a8e-16d3-4f59-97a8-78273b885862")
+	)
+	(wire
+		(pts
+			(xy 267.97 137.16) (xy 267.97 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2773aa4a-f50e-459d-943d-0d7acc4a3e76")
 	)
 	(wire
 		(pts
@@ -2902,6 +3224,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 134.62) (xy 248.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b638cdb-af6c-4e99-ac8b-392be5c1a610")
+	)
+	(wire
+		(pts
 			(xy 151.13 34.29) (xy 151.13 33.02)
 		)
 		(stroke
@@ -2909,6 +3241,36 @@
 			(type default)
 		)
 		(uuid "35283351-21c5-4ebc-854b-d3230603e8cf")
+	)
+	(wire
+		(pts
+			(xy 241.3 144.78) (xy 241.3 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b64c704-781c-4214-a177-0207fda1ad0b")
+	)
+	(wire
+		(pts
+			(xy 251.46 134.62) (xy 251.46 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4671c946-27b6-40ee-bc96-f8eac8f7844d")
+	)
+	(wire
+		(pts
+			(xy 231.14 134.62) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46bf265f-0278-49c5-b98a-4327257b4d92")
 	)
 	(wire
 		(pts
@@ -2942,6 +3304,26 @@
 	)
 	(wire
 		(pts
+			(xy 255.27 134.62) (xy 251.46 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81e0b4b2-421e-446b-adf8-e6b93cdcf996")
+	)
+	(wire
+		(pts
+			(xy 231.14 133.35) (xy 231.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8262e41b-1a06-456a-bff5-2b95781f4fbf")
+	)
+	(wire
+		(pts
 			(xy 152.4 25.4) (xy 151.13 25.4)
 		)
 		(stroke
@@ -2949,6 +3331,36 @@
 			(type default)
 		)
 		(uuid "8af0b523-b122-443a-a195-d451eefc9b6b")
+	)
+	(wire
+		(pts
+			(xy 241.3 143.51) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92d1634a-096f-4c68-9726-92494536886c")
+	)
+	(wire
+		(pts
+			(xy 251.46 143.51) (xy 251.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953cbc3f-61cb-450e-a9ad-00ffad854e3d")
+	)
+	(wire
+		(pts
+			(xy 267.97 143.51) (xy 267.97 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d20b15f-ef01-4d04-bc70-003f4b9eb689")
 	)
 	(wire
 		(pts
@@ -2972,6 +3384,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 144.78) (xy 232.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9d37541-3f54-4d46-8a35-71cf2ddfb3dd")
+	)
+	(wire
+		(pts
 			(xy 130.81 33.02) (xy 130.81 34.29)
 		)
 		(stroke
@@ -2982,6 +3404,26 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 129.54) (xy 267.97 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc4e7b2-57e8-4554-94b8-250691e5d3f7")
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 232.41 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfded08a-7d3e-4499-a08d-e6bc90c72dfe")
+	)
+	(wire
+		(pts
 			(xy 200.66 57.15) (xy 199.39 57.15)
 		)
 		(stroke
@@ -2989,6 +3431,16 @@
 			(type default)
 		)
 		(uuid "e6e80579-569c-4716-8c29-85131f441337")
+	)
+	(wire
+		(pts
+			(xy 232.41 144.78) (xy 232.41 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc7e1f2-05a7-4f1b-8ed2-555e1fd37a12")
 	)
 	(wire
 		(pts
@@ -3019,6 +3471,72 @@
 			(justify left bottom)
 		)
 		(uuid "317e4377-18eb-49a2-94fe-c4035ffbc5a3")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 267.97 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "015982fe-b3f9-4fb3-b6a1-75fe1714bae9")
+		(property "Reference" "#PWR024"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 267.97 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 267.97 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6338bf1e-e47f-4f6f-abcd-27f27bad93bc")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
@@ -3161,6 +3679,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 241.3 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ae33127-cd8b-482e-b07b-d3b6794098f7")
+		(property "Reference" "#PWR038"
+			(at 241.3 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9536c015-89f8-4a41-9d60-358b989f3685")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 151.13 30.48 0)
 		(unit 1)
@@ -3225,6 +3808,121 @@
 			(project "C-Audio Schmupf Amp (CASA) Frontplate"
 				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_Small")
+		(at 267.97 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bf8091b-771a-499f-9350-bc55dcf376cc")
+		(property "Reference" "D2"
+			(at 265.43 140.9066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G_led"
+			(at 265.43 138.3666 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 267.97 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode, small symbol"
+			(at 267.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pin" "1=K 2=A"
+			(at 267.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 267.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 267.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr." ""
+			(at 267.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Link" ""
+			(at 267.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ef883b03-9212-477d-8c00-a168b11d7994")
+		)
+		(pin "1"
+			(uuid "b4f11ffb-b79b-4534-be42-eba20cb793f1")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3615,6 +4313,78 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:AP7361C-33E")
+		(at 241.3 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c67f005-5e57-485d-916d-8bd8dc74ead1")
+		(property "Reference" "U2"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP7361C-33E"
+			(at 241.3 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 241.3 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP7361C.pdf"
+			(at 241.3 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 241.3 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ad2f4fc-3244-4304-9d25-fd8b50493aad")
+		)
+		(pin "3"
+			(uuid "3160b714-5204-4271-b291-beb20cc882c2")
+		)
+		(pin "1"
+			(uuid "bf97fb99-83ae-4468-8e7c-b2e4870558f8")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 129.54 25.4 0)
 		(unit 1)
@@ -3743,6 +4513,94 @@
 			(project ""
 				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 267.97 133.35 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fe22613-7b6b-4b4d-b9e5-3dbb2dbe4a25")
+		(property "Reference" "R19"
+			(at 265.176 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 265.176 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 267.97 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0bdc5b41-b644-4890-b166-b907b5b8a9e4")
+		)
+		(pin "1"
+			(uuid "a69b03b2-0ba5-4bb2-9f70-26823fff9b9e")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -3879,6 +4737,71 @@
 			(project ""
 				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 231.14 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "608ac22a-53f1-41b0-b7f2-b74ec6e0874f")
+		(property "Reference" "#PWR037"
+			(at 231.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 228.346 130.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 231.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09e8795d-ca5c-4965-b1d4-a05b982824c2")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -4031,6 +4954,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 267.97 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71552be9-434c-4ad4-a4b3-d8b29dc45db8")
+		(property "Reference" "#PWR025"
+			(at 267.97 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 264.668 146.304 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 267.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 267.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 267.97 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1582bcf1-5f65-4f99-86ad-5920ea186883")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 152.4 25.4 0)
 		(unit 1)
@@ -4091,6 +5079,120 @@
 			(project ""
 				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 232.41 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "85123161-507e-48ef-9dc0-ed24e07f4feb")
+		(property "Reference" "C12"
+			(at 226.568 139.446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 226.568 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr." ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Link" ""
+			(at 232.41 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63db1164-55ba-46f8-bcf7-3657a395a6b8")
+		)
+		(pin "1"
+			(uuid "1b2401e5-b9fa-48fd-a72e-117ce02dd069")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4732,6 +5834,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 251.46 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b65a6a60-9099-4d48-9860-6ce7ec874bef")
+		(property "Reference" "C4"
+			(at 253.238 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 253.238 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser URL" ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Nr." ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Link" ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Nr." ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt Link" ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a8a30e06-7f27-41d6-ba6d-c168a965b20a")
+		)
+		(pin "1"
+			(uuid "5d564f55-3564-4b6d-84be-a150eb78a334")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "4xxx:40106")
 		(at 36.83 95.25 0)
 		(unit 4)
@@ -4906,6 +6122,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 255.27 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b7083a-9e7f-4c4b-98dd-7ff5fbf73a34")
+		(property "Reference" "#PWR034"
+			(at 255.27 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 255.27 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 255.27 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ebb850d-dc04-4b65-9f54-4da2273505f7")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 200.66 59.69 0)
 		(unit 1)
@@ -5073,7 +6355,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
 			(at 186.69 132.08 0)
 			(effects
 				(font
@@ -5318,6 +6600,74 @@
 				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
 					(reference "U10")
 					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 248.92 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faf8ba71-50df-444b-90ff-17a6fbacae2c")
+		(property "Reference" "TP1"
+			(at 250.19 128.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 250.19 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25c827cf-6402-4b29-8074-e8a1b6c8da3b")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA) Frontplate"
+				(path "/7c16ef52-f024-45cf-8812-e105a35992e3"
+					(reference "TP1")
+					(unit 1)
 				)
 			)
 		)

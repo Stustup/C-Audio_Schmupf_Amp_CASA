@@ -11,381 +11,6 @@
 		(company "C-Audio")
 	)
 	(lib_symbols
-		(symbol "+5V_1"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "+5V_2"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_2_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_2_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "+5V_3"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Amplifier_Operational:OPA1662D"
 			(pin_names
 				(offset 0.127)
@@ -4447,242 +4072,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:L78L05_SO8"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L78L05_SO8"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 2.54 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 100mA Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L78L05_SO8_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L78L05_SO8_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Regulator_Linear:LM317_TO-220"
 			(pin_names
 				(offset 0.254)
@@ -4965,27 +4354,39 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Relay:EE2-5NU"
+		(symbol "Relay:G6K-2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "K"
-				(at 15.24 8.89 0)
+				(at 16.51 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "EE2-5NU"
-				(at 19.05 6.35 0)
+			(property "Value" "G6K-2"
+				(at 16.51 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4994,7 +4395,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
+			(property "Description" "Miniature 2-pole relay, Single-side Stable"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5003,7 +4404,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
+			(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5012,7 +4413,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "signal relay double pole double throw DPDT DC coil non latching"
+			(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5021,16 +4422,17 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Relay*DPDT*Kemet*EE2*NU*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
+			(symbol "G6K-2_0_0"
+				(text "+"
+					(at -9.271 2.921 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
-					(hide yes)
 				)
 			)
-			(symbol "EE2-5NU_1_1"
+			(symbol "G6K-2_0_1"
 				(rectangle
 					(start -15.24 5.08)
 					(end 15.24 -5.08)
@@ -5341,14 +4743,8 @@
 						(type none)
 					)
 				)
-				(text "+"
-					(at -9.271 2.921 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
+			)
+			(symbol "G6K-2_1_1"
 				(pin passive line
 					(at -10.16 7.62 270)
 					(length 2.54)
@@ -5377,7 +4773,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5395,7 +4791,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5413,7 +4809,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5431,7 +4827,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5449,7 +4845,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5467,7 +4863,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5485,7 +4881,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5496,7 +4892,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "power:+12V"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -5517,7 +4913,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "+12V"
 				(at 0 3.556 0)
 				(effects
 					(font
@@ -5543,7 +4939,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5561,7 +4957,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "+12V_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -5599,7 +4995,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5804,131 +5200,6 @@
 			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
 					(length 0)
 					(name "~"
 						(effects
@@ -6523,16 +5794,6 @@
 		)
 		(uuid "334db3e1-d9f7-4e61-85fd-a1389a2c9a56")
 	)
-	(text "Relay and digital supply\n"
-		(exclude_from_sim no)
-		(at 25.654 124.714 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4b6d0a28-8fc8-43d3-95e1-cd715640447f")
-	)
 	(text "Mic Input"
 		(exclude_from_sim no)
 		(at 213.106 85.598 0)
@@ -6552,6 +5813,16 @@
 			)
 		)
 		(uuid "8494aacf-3738-433b-b433-0bcf6f0a0e6c")
+	)
+	(text "12V DC"
+		(exclude_from_sim no)
+		(at 18.542 148.844 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85dddef6-2245-461e-8a2e-5d2aa5d93821")
 	)
 	(text "Voltage Amplification\nColtage Gain 1x/3x"
 		(exclude_from_sim no)
@@ -6644,12 +5915,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e25240e-888b-4503-9ab0-52b87a659b3f")
-	)
-	(junction
-		(at 38.1 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11b9b31b-62fb-4bf5-ab20-43043143df81")
 	)
 	(junction
 		(at 53.34 157.48)
@@ -6820,12 +6085,6 @@
 		(uuid "89b9d894-b911-4c5d-ac8c-2f96cecd949f")
 	)
 	(junction
-		(at 27.94 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a6b9d5b-0fd6-4e32-bb0f-98a5de2b38a6")
-	)
-	(junction
 		(at 144.78 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6974,12 +6233,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e82c02d4-132b-4dc0-8e28-c79d713ac0f4")
-	)
-	(junction
-		(at 35.56 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e83773a2-94c2-43dc-b30f-e6c9634d0a5f")
 	)
 	(junction
 		(at 137.16 168.91)
@@ -7269,16 +6522,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 142.24) (xy 27.94 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1296aba1-8519-4e32-aabe-2e7f425919cc")
-	)
-	(wire
-		(pts
 			(xy 87.63 87.63) (xy 88.9 87.63)
 		)
 		(stroke
@@ -7509,16 +6752,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 134.62) (xy 20.32 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2145afa6-b3e0-41b4-a811-5968bd3900ab")
-	)
-	(wire
-		(pts
 			(xy 100.33 153.67) (xy 109.22 153.67)
 		)
 		(stroke
@@ -7689,16 +6922,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 143.51) (xy 27.94 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cf52feb-e17f-4ffa-8d1d-1304b9394f2d")
-	)
-	(wire
-		(pts
 			(xy 109.22 161.29) (xy 100.33 161.29)
 		)
 		(stroke
@@ -7856,16 +7079,6 @@
 			(type default)
 		)
 		(uuid "3477baac-6d21-49e7-91d3-51334ddc3041")
-	)
-	(wire
-		(pts
-			(xy 54.61 129.54) (xy 54.61 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "348e0a00-4443-47f1-ac54-a59d83fa7a4b")
 	)
 	(wire
 		(pts
@@ -8219,16 +7432,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 134.62) (xy 38.1 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f735709-66e0-4393-93ec-59e71c8768e0")
-	)
-	(wire
-		(pts
 			(xy 138.43 143.51) (xy 140.97 143.51)
 		)
 		(stroke
@@ -8429,16 +7632,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 134.62) (xy 38.1 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "590010c8-314b-4052-bf26-df8fe0f8e055")
-	)
-	(wire
-		(pts
 			(xy 163.83 97.79) (xy 165.1 97.79)
 		)
 		(stroke
@@ -8446,6 +7639,16 @@
 			(type default)
 		)
 		(uuid "598ddacb-8511-40fe-8daf-d83dc2bd8054")
+	)
+	(wire
+		(pts
+			(xy 72.39 168.91) (xy 72.39 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "598f15c7-74c3-4c43-b0b6-167ae6662392")
 	)
 	(wire
 		(pts
@@ -8609,16 +7812,6 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 137.16) (xy 54.61 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61f59e43-b286-4342-a4c5-a96de01b9ca8")
-	)
-	(wire
-		(pts
 			(xy 109.22 161.29) (xy 124.46 161.29)
 		)
 		(stroke
@@ -8729,16 +7922,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 143.51) (xy 38.1 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d170ba2-487e-491a-9935-af69dc8f9207")
-	)
-	(wire
-		(pts
 			(xy 39.37 34.29) (xy 44.45 34.29)
 		)
 		(stroke
@@ -8786,6 +7969,16 @@
 			(type default)
 		)
 		(uuid "6f45f6e5-7ec7-4091-abcb-7d736548a7ec")
+	)
+	(wire
+		(pts
+			(xy 58.42 168.91) (xy 72.39 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7013e97d-2577-4a8f-914f-35e46ffea5ad")
 	)
 	(wire
 		(pts
@@ -9046,16 +8239,6 @@
 			(type default)
 		)
 		(uuid "818e19c6-acba-4a54-8f50-2e4d5b62c6ca")
-	)
-	(wire
-		(pts
-			(xy 54.61 143.51) (xy 54.61 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "839b6d42-0090-4710-a3a9-1559583dd6cc")
 	)
 	(wire
 		(pts
@@ -9569,16 +8752,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 133.35) (xy 17.78 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a146aaf5-f388-47c5-a407-ad48bdd8538a")
-	)
-	(wire
-		(pts
 			(xy 138.43 152.4) (xy 138.43 153.67)
 		)
 		(stroke
@@ -9816,16 +8989,6 @@
 			(type default)
 		)
 		(uuid "b7b794d5-e38b-4c54-aab2-5cd9692c1faa")
-	)
-	(wire
-		(pts
-			(xy 27.94 143.51) (xy 38.1 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8081b3e-ee3a-4d25-ac8e-3d4b23ae6da4")
 	)
 	(wire
 		(pts
@@ -10509,16 +9672,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 133.35) (xy 41.91 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed99c2cf-6282-4797-a7c3-fe5dec89a483")
-	)
-	(wire
-		(pts
 			(xy 20.32 168.91) (xy 35.56 168.91)
 		)
 		(stroke
@@ -10646,16 +9799,6 @@
 			(type solid)
 		)
 		(uuid "f66bb734-a768-499a-8e35-359193dd1250")
-	)
-	(wire
-		(pts
-			(xy 38.1 134.62) (xy 35.56 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f66fd766-30be-44fe-a901-89e3fd1b1cc8")
 	)
 	(wire
 		(pts
@@ -10807,6 +9950,16 @@
 		)
 		(uuid "4e8363d1-a2d1-4f9a-b6b1-0e541a3f580e")
 	)
+	(label "PSU_EN"
+		(at 58.42 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58115a2f-bb5a-4a05-9893-74256109e604")
+	)
 	(label "Out_R"
 		(at 237.49 50.8 0)
 		(effects
@@ -10856,6 +10009,16 @@
 			(justify left bottom)
 		)
 		(uuid "75712ddc-419d-4406-a0b4-5bf2f2858825")
+	)
+	(label "PSU_EN"
+		(at 186.69 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83b32ac0-5a69-4ef5-996e-817c42ea2995")
 	)
 	(label "V-_raw"
 		(at 101.6 168.91 0)
@@ -12001,71 +11164,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0ae33127-cd8b-482e-b07b-d3b6794098f7")
-		(property "Reference" "#PWR038"
-			(at 27.94 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 30.734 145.034 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 27.94 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9536c015-89f8-4a41-9d60-358b989f3685")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR038")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 109.22 165.1 0)
 		(unit 1)
@@ -12163,7 +11261,7 @@
 		(dnp no)
 		(uuid "0faee94a-149d-4479-8131-947ba9deed64")
 		(property "Reference" "J8"
-			(at 23.622 147.066 90)
+			(at 25.4 152.146 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12172,7 +11270,7 @@
 			)
 		)
 		(property "Value" "PWR_Switch"
-			(at 23.622 149.606 90)
+			(at 29.464 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12891,6 +11989,72 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 53.34 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2775a758-6182-45ce-bfec-db6fb2d1f934")
+		(property "Reference" "#PWR024"
+			(at 53.34 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 53.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 53.34 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96622c38-d392-4672-a46d-b784c02170d9")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13846,92 +13010,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:EE2-5NU")
-		(at 227.33 55.88 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4622888f-eadc-4041-af3a-93d05a8e913c")
-		(property "Reference" "K1"
-			(at 227.33 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EE2-5NU"
-			(at 227.33 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
-			(at 227.33 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fdb92a6c-220c-4b24-8edb-576371f50678")
-		)
-		(pin "5"
-			(uuid "282d572c-cf45-4bf9-a0bb-81e4dbd33380")
-		)
-		(pin "4"
-			(uuid "3c060c60-1623-4e48-9be4-c08545150cfa")
-		)
-		(pin "8"
-			(uuid "bc737d1d-680c-4676-85fd-533dca04c3cc")
-		)
-		(pin "3"
-			(uuid "4fdc71e5-fb9d-4c35-ab0c-0950a34975f2")
-		)
-		(pin "9"
-			(uuid "f60b7916-5472-43af-89a4-35f2a2d5bb2c")
-		)
-		(pin "12"
-			(uuid "7a0259fd-4651-4d69-84fd-fc1728a7cf9b")
-		)
-		(pin "10"
-			(uuid "be66adc7-4080-4f23-92b2-5ec68e1549b6")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "K1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_Small_3")
 		(lib_id "Device:R_Small")
 		(at 143.51 85.09 90)
@@ -13994,161 +13072,6 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "R37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_2")
-		(lib_id "power:+5V")
-		(at 73.66 58.42 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4caa1a96-ecab-4b52-8a71-a8b90ebd8274")
-		(property "Reference" "#PWR040"
-			(at 73.66 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 75.692 55.372 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 73.66 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1008f250-f92d-4c3e-a66f-aedec1db7789")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 54.61 133.35 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4fe22613-7b6b-4b4d-b9e5-3dbb2dbe4a25")
-		(property "Reference" "R19"
-			(at 51.816 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1k5"
-			(at 51.816 132.334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser URL" ""
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Nr." ""
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0bdc5b41-b644-4890-b166-b907b5b8a9e4")
-		)
-		(pin "1"
-			(uuid "a69b03b2-0ba5-4bb2-9f70-26823fff9b9e")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -14236,71 +13159,6 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 54.61 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5309be49-6ff3-495a-aa01-83dbf415b2eb")
-		(property "Reference" "#PWR024"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 51.308 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 54.61 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "624fad93-aaf5-480e-a0cd-1981fe4f46d4")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -14443,71 +13301,6 @@
 			(project ""
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 17.78 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "608ac22a-53f1-41b0-b7f2-b74ec6e0874f")
-		(property "Reference" "#PWR037"
-			(at 17.78 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 14.986 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 17.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 17.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 17.78 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "09e8795d-ca5c-4965-b1d4-a05b982824c2")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14779,121 +13572,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_Small")
-		(at 54.61 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70b2733e-b3ea-4948-a4ae-4f8290b6c325")
-		(property "Reference" "D1"
-			(at 52.07 140.9066 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "G_led"
-			(at 52.07 138.3666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 54.61 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode, small symbol"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pin" "1=K 2=A"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Nr." ""
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Link" ""
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reichelt Nr." ""
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Reichelt Link" ""
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "130d3094-bcb3-4b0a-815c-aa0fa62166f8")
-		)
-		(pin "1"
-			(uuid "033e9fc0-0582-4230-a51e-4295039fa587")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 39.37 161.29 0)
 		(mirror x)
@@ -14958,71 +13636,6 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "C36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71552be9-434c-4ad4-a4b3-d8b29dc45db8")
-		(property "Reference" "#PWR025"
-			(at 54.61 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 51.308 146.304 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1582bcf1-5f65-4f99-86ad-5920ea186883")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15676,7 +14289,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u 24V"
+		(property "Value" "100u 24V"
 			(at 49.022 163.322 0)
 			(effects
 				(font
@@ -16230,138 +14843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VBUS")
-		(at 53.34 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86b4892c-6b6f-4b61-9eb0-8f923833b427")
-		(property "Reference" "#PWR033"
-			(at 53.34 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 53.34 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 53.34 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b472416-399e-4b96-a197-f21ccd736b86")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_2")
-		(lib_id "power:+5V")
-		(at 237.49 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "87c38e78-3dcf-44c4-9032-7502bdd7900f")
-		(property "Reference" "#PWR022"
-			(at 237.49 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 240.03 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 237.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 237.49 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df1fb44e-5b55-4a1a-99f1-b83a282f92fe")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "R_Small_2")
 		(lib_id "Device:R_Small")
 		(at 101.6 39.37 180)
@@ -16491,6 +14972,71 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 73.66 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8e03b7a8-f885-4a16-8c73-1f2d79576655")
+		(property "Reference" "#PWR011"
+			(at 73.66 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 74.422 54.102 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c5fc37dd-4137-4d44-a79b-14a186ff5a40")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16806,76 +15352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 38.1 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "99a45491-96ea-4598-b4f1-b5ed8553de33")
-		(property "Reference" "C12"
-			(at 40.64 136.6138 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100u"
-			(at 40.64 139.1538 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 38.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 38.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b872bc7-1d46-4e39-97ee-ed555f94b64a")
-		)
-		(pin "2"
-			(uuid "00d127be-079b-4372-993c-01d7875b3b98")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 166.37 170.18 90)
 		(unit 1)
@@ -17138,6 +15614,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+12V")
+		(at 186.69 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e64990e-7744-41de-84bd-32fece7e1076")
+		(property "Reference" "#PWR029"
+			(at 186.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 186.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 186.69 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f96c0694-3233-47a7-964c-426a939b44c3")
+		)
+		(instances
+			(project ""
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA1662D")
 		(at 120.65 33.02 0)
 		(mirror x)
@@ -17387,91 +15929,6 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Relay:EE2-5NU")
-		(at 83.82 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a75ac3a4-61dd-4f68-8d92-02325afa08dd")
-		(property "Reference" "K2"
-			(at 83.82 29.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EE2-5NU"
-			(at 83.82 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
-			(at 83.82 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f6ed8ac-a46e-49db-ab56-dc93d437242f")
-		)
-		(pin "5"
-			(uuid "755324a7-4c09-4b9b-994b-6912af65aae8")
-		)
-		(pin "4"
-			(uuid "34a1f987-d317-4e3e-9d1d-a799ffa49171")
-		)
-		(pin "8"
-			(uuid "53c379c2-626d-4dd6-a1ab-eb71aa342a25")
-		)
-		(pin "3"
-			(uuid "7195a350-bf35-4978-ade3-750b222fbce1")
-		)
-		(pin "9"
-			(uuid "2ccc30a5-d1c4-4243-89a8-c1b1b6a82803")
-		)
-		(pin "12"
-			(uuid "2dbf0aa3-2d4c-4af4-ad46-9a2f1b881beb")
-		)
-		(pin "10"
-			(uuid "5bb14b35-cfe2-4571-8d8b-860e85a6648c")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -17914,225 +16371,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+5V_1")
-		(lib_id "power:+5V")
-		(at 41.91 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc8fbf3e-10c3-4f15-bbf0-0ab2023f6198")
-		(property "Reference" "#PWR039"
-			(at 41.91 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 39.116 130.302 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 41.91 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd23aaf5-34be-48cc-a455-a5e21348b35a")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+5V_3")
-		(lib_id "power:+5V")
-		(at 146.05 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf5f8f5b-aa79-433c-93da-c0afcaf3e6e6")
-		(property "Reference" "#PWR044"
-			(at 146.05 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 143.256 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8796971c-2648-4ec4-b29e-3eaef0bf2a29")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L78L05_SO8")
-		(at 27.94 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0ed8159-5ff6-4608-a7ae-f90e9681a1d4")
-		(property "Reference" "U4"
-			(at 27.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L78L05_SO8"
-			(at 27.94 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 30.48 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf"
-			(at 33.02 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Positive 100mA 30V Linear Regulator, Fixed Output 5V, SO-8"
-			(at 27.94 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "53760f3e-6e61-427e-9504-39c66235dc9f")
-		)
-		(pin "4"
-			(uuid "1407d086-95c8-4d19-9413-7a1563a94637")
-		)
-		(pin "6"
-			(uuid "5b92a37b-fb5a-450c-98e2-7899df6ec79c")
-		)
-		(pin "1"
-			(uuid "deb266b2-4335-4ca7-a215-155b07156bee")
-		)
-		(pin "8"
-			(uuid "8add07b6-ea9b-4b1d-9091-30c08247a08c")
-		)
-		(pin "3"
-			(uuid "fc8d751e-d925-4446-b065-402d38cb36eb")
-		)
-		(pin "5"
-			(uuid "7764fbce-05f2-4acc-88a5-17a794ccf7cb")
-		)
-		(pin "7"
-			(uuid "9c0aaece-6b1c-420a-a5d2-4f7d0098e058")
-		)
-		(instances
-			(project ""
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 66.04 100.33 0)
 		(unit 1)
@@ -18349,6 +16587,158 @@
 			(project ""
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 237.49 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd967ff5-6008-4a7a-b3a4-16ab0562e125")
+		(property "Reference" "#PWR022"
+			(at 237.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 240.792 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 237.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0597c206-443c-4ae9-9391-4bdeadb1bad5")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 227.33 55.88 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cdd373e3-d176-4f2f-8539-815651b4b466")
+		(property "Reference" "K2"
+			(at 227.33 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTR-B3S-AO12Z"
+			(at 227.33 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_Fujitsu_FTR-B3S"
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 227.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71d9e74d-f80b-400c-ace7-a41412bb151c")
+		)
+		(pin "8"
+			(uuid "73698367-4f2d-46aa-aa31-8b42a903338f")
+		)
+		(pin "5"
+			(uuid "60ad70f9-08d7-4f5c-8dd3-553ccad0f723")
+		)
+		(pin "7"
+			(uuid "1a2e718c-8b16-496a-bd05-3b2880384d6a")
+		)
+		(pin "6"
+			(uuid "8c7e29cd-6567-4d2e-829d-ef4edceab9bc")
+		)
+		(pin "1"
+			(uuid "2d544b41-c0e9-47c1-bc2d-d5e75eef612c")
+		)
+		(pin "3"
+			(uuid "7f0ab70d-a511-4628-9b9f-df9c74ee18cf")
+		)
+		(pin "4"
+			(uuid "c32d863e-5948-4fba-ac51-2fef326b6443")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "K2")
 					(unit 1)
 				)
 			)
@@ -19074,32 +17464,43 @@
 		)
 	)
 	(symbol
-		(lib_id "Relay:EE2-5NU")
-		(at 156.21 87.63 90)
+		(lib_id "Relay:G6K-2")
+		(at 83.82 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5b2d1e8-047b-4c5b-b4c5-52f3a8a86bdf")
-		(property "Reference" "K3"
-			(at 156.21 67.31 90)
+		(fields_autoplaced yes)
+		(uuid "e561a822-52b7-4554-89a1-62511d75de53")
+		(property "Reference" "K4"
+			(at 83.82 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "EE2-5NU"
-			(at 156.21 69.85 90)
+		(property "Value" "FTR-B3S-AO12Z"
+			(at 83.82 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Relay_SMD:Relay_DPDT_Kemet_EE2_NU"
-			(at 156.21 87.63 0)
+		(property "Footprint" "Relay_SMD:Relay_Fujitsu_FTR-B3S"
+			(at 83.82 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19107,8 +17508,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.kemet.com/datasheets/KEM_R7002_EC2_EE2.pdf"
-			(at 156.21 87.63 0)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 83.82 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19116,43 +17517,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "General purpose signal relay, Kemet EE2 Series, DPDT (2 Form C), non-latching, SMD, 60W/125VA, 220VDC/250VAC, 2A, 5V DC coil"
-			(at 156.21 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c9498634-f76e-408d-9e0d-efbdfa9ad870")
-		)
-		(pin "5"
-			(uuid "f469a460-032f-49bc-a91e-e986275b6478")
-		)
-		(pin "4"
-			(uuid "3a872f37-3708-43bd-8ce5-50a43b7ca44a")
+		(pin "2"
+			(uuid "253c10cb-1c6f-4ca9-b23c-f3968de459b3")
 		)
 		(pin "8"
-			(uuid "ae734210-2c47-402d-9a82-25e074021a12")
+			(uuid "52a3cd39-bdb1-4043-b620-c9613283561b")
+		)
+		(pin "5"
+			(uuid "e42081e4-7ff4-4cf1-95d8-349b4c00ac26")
+		)
+		(pin "7"
+			(uuid "da15891b-165e-4878-9862-fd7d0149f7da")
+		)
+		(pin "6"
+			(uuid "eabd9f1a-c5aa-4cce-be20-fbd2a4f5b624")
+		)
+		(pin "1"
+			(uuid "ca4efbef-7585-444e-a560-2ec0e40226e0")
 		)
 		(pin "3"
-			(uuid "1e5e929f-b334-45af-930f-067406080452")
+			(uuid "1f307aee-ed77-47fa-b897-3b04cf7df9a5")
 		)
-		(pin "9"
-			(uuid "d5fd70dc-3afb-4da6-8686-61e18a1d89e8")
-		)
-		(pin "12"
-			(uuid "126794be-077b-4357-8540-7c34cb7bcd28")
-		)
-		(pin "10"
-			(uuid "6122ba75-2fb5-4ff1-a177-f9bcc4978b2e")
+		(pin "4"
+			(uuid "532167fe-b285-41b5-ab06-664b095820c5")
 		)
 		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
+			(project ""
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "K3")
+					(reference "K4")
 					(unit 1)
 				)
 			)
@@ -19319,7 +17711,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
-		(at 189.23 154.94 0)
+		(at 205.74 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19328,7 +17720,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb7b6f25-d528-4cfd-b500-cf1124b178db")
 		(property "Reference" "J6"
-			(at 190.5 143.51 0)
+			(at 207.01 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19336,7 +17728,7 @@
 			)
 		)
 		(property "Value" "Conn_frontpanel"
-			(at 190.5 146.05 0)
+			(at 207.01 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19344,7 +17736,7 @@
 			)
 		)
 		(property "Footprint" "Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical"
-			(at 189.23 154.94 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19353,7 +17745,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 154.94 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19362,7 +17754,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 189.23 154.94 0)
+			(at 205.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19474,6 +17866,93 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 156.21 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f04c9ba6-605f-4b5d-97d5-91789c1b1633")
+		(property "Reference" "K1"
+			(at 156.21 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FTR-B3S-AO12Z"
+			(at 156.21 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_SMD:Relay_Fujitsu_FTR-B3S"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 156.21 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f592dd5-5566-485b-a80b-5a7d239b43f8")
+		)
+		(pin "8"
+			(uuid "8b1eec8b-fa99-46d5-8922-07c6e9b96b6e")
+		)
+		(pin "5"
+			(uuid "302e2ce5-4789-456a-8d5d-e4c9435ea87a")
+		)
+		(pin "7"
+			(uuid "41688bdb-6138-471c-ad56-c70246387ecd")
+		)
+		(pin "6"
+			(uuid "c6d04b8a-c411-4262-8377-743bfb3b136e")
+		)
+		(pin "1"
+			(uuid "ea41c1fe-6565-4da4-af7c-2e67c1ec6b10")
+		)
+		(pin "3"
+			(uuid "5fa3e556-ad0c-48ab-9d86-24734ed36de5")
+		)
+		(pin "4"
+			(uuid "655f5966-4d05-4a22-83e7-8d6cb07762fb")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "K1")
 					(unit 1)
 				)
 			)
@@ -19725,6 +18204,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 191.77 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f427b3f5-ebcc-46b6-b4ba-5a579885e8f6")
+		(property "Reference" "#PWR033"
+			(at 191.77 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 191.77 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50ac2fd6-b9db-442f-bfc1-357ff45f3833")
+		)
+		(instances
+			(project ""
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 87.63 87.63 0)
 		(unit 1)
@@ -19784,6 +18329,71 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 146.05 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f68d13cf-54f0-428c-86b5-5436a0ab6173")
+		(property "Reference" "#PWR025"
+			(at 146.05 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 143.002 96.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 146.05 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13322b10-d53a-41eb-bc0d-b9ba1b8ed443")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -19940,74 +18550,6 @@
 			(project ""
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 35.56 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "faf8ba71-50df-444b-90ff-17a6fbacae2c")
-		(property "Reference" "TP1"
-			(at 36.83 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 36.83 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 40.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25c827cf-6402-4b29-8074-e8a1b6c8da3b")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
