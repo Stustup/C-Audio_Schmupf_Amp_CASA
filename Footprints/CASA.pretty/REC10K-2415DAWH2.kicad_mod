@@ -1,0 +1,292 @@
+(footprint "REC10K-2415DAWH2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "U**"
+		(at -10.16 -13.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9b9ac136-a4c6-498b-9055-c5f7ea1f2243")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "REC10K-2415DAWH2"
+		(at 0 -15.597 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ec4f4bd8-a51c-4af3-a41e-dc9f2814a499")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CASA:REC10K-2415DAWH2"
+		(at 0 -16.597 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "770cae20-41d9-4df9-b850-cb94b26e6813")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.mouser.de/datasheet/2/468/REC10K_AW-3454143.pdf"
+		(at 0 -16.597 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a8d4176-ba2b-4aa2-8bd8-7ff48f46e187")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" " Isolated DC/DC Converters - Through Hole 10W 9-36Vin +/-15Vout +/-333mA "
+		(at 0 -16.597 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "178be8ec-c8d9-468a-8631-265a504f8980")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -12.7 -12.065)
+		(end -12.699999 12.064999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7db16b45-7165-4387-a4a8-97017c2f141f")
+	)
+	(fp_line
+		(start -12.064999 12.699999)
+		(end 12.064999 12.699999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71e90e25-2500-4391-a8e1-35fd3fec60aa")
+	)
+	(fp_line
+		(start 12.064999 -12.699999)
+		(end -12.065 -12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b23bd13d-1e1e-46cc-863c-9c4b7694518d")
+	)
+	(fp_line
+		(start 12.699999 12.064999)
+		(end 12.699999 -12.064999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "936a63f7-78f4-4c85-bf00-8443c738ceaf")
+	)
+	(fp_arc
+		(start -12.7 -12.065)
+		(mid -12.514013 -12.514013)
+		(end -12.065 -12.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0a1b95c9-b81d-4e84-8dff-8918c4204b14")
+	)
+	(fp_arc
+		(start -12.064999 12.699999)
+		(mid -12.514012 12.514012)
+		(end -12.699999 12.064999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "79b8df14-1abb-4b81-8fc9-d445d9ce7730")
+	)
+	(fp_arc
+		(start 12.064999 -12.699999)
+		(mid 12.514012 -12.514012)
+		(end 12.699999 -12.064999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a482e8ff-9182-466e-bd66-9964c5056e7e")
+	)
+	(fp_arc
+		(start 12.699999 12.064999)
+		(mid 12.514012 12.514012)
+		(end 12.064999 12.699999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4209002a-67c1-4777-823f-45e6021138dd")
+	)
+	(fp_text user "Vin-"
+		(at -8.89 -1.905 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "113de2cd-da31-4ab0-a39a-0fad1a7a5c9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Cout+"
+		(at 4.445 10.795 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "227e85d9-2762-4ced-a683-6c3cbb211080")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Vout-"
+		(at 4.445 -9.525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30ea6797-8065-438c-a71d-70b9a0589af2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "COM"
+		(at 5.715 0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70908c0c-898d-4f64-a69e-d0f9c0e6084f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Vin+"
+		(at -8.89 3.175 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ce16ee96-1cdd-46d1-9193-a3de41fea953")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "CTRL"
+		(at -8.89 -9.525 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "fef7710a-6443-4c49-b4b9-3e89cb0b4767")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -14.097 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dd190153-03a7-47c4-91ad-64ce0674dbfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -10.16 2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d2011eb5-aa11-4ac0-999e-95b8b691239c")
+	)
+	(pad "2" thru_hole circle
+		(at -10.16 -2.54)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74035f71-afc9-4f4f-81ff-007a0513c170")
+	)
+	(pad "3" thru_hole circle
+		(at -10.16 -10.16)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "989eeffc-f675-4402-b9d6-f9d566821f87")
+	)
+	(pad "4" thru_hole circle
+		(at 10.16 -10.16)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0759ad87-9d4a-4d87-becc-f81beb7bc761")
+	)
+	(pad "5" thru_hole circle
+		(at 10.16 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc2f9a97-a10e-4b4b-acaa-27ffe8998082")
+	)
+	(pad "6" thru_hole circle
+		(at 10.16 10.16)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "163de539-bc73-4616-b8e8-2fc62ef08fed")
+	)
+)

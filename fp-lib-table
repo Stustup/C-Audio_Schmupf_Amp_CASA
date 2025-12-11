@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CASA")(type "KiCad")(uri "${KIPRJMOD}/CASA.pretty")(options "")(descr ""))
+)

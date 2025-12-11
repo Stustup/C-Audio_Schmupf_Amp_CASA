@@ -1,0 +1,32 @@
+11-12 11:29:03 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 196:Plugin executed on: 'win32'
+11-12 11:29:03 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 197:Plugin executed with python version: '3.11.5 (main, Sep 17 2025, 01:04:48) [MSC v.1944 64 bit (AMD64)]'
+11-12 11:29:03 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 198:KiCad build version: 9.0.6
+11-12 11:29:03 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 199:Plugin version: 4.0.0
+11-12 11:29:03 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Frame repr: <wx._core.Frame object at 0x0000011EC6197640>
+11-12 11:29:03 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 218:Anchor footprint reference is 'U2'
+11-12 11:29:04 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 298:Restore layout chosen
+11-12 11:29:05 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 83:Initialization start
+11-12 11:29:05 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 85:Initialization done Group name:
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 788:Getting board info
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 791:Get project schematics and layout data
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 800:There is more than one footprint with same ID in the target layout.This is due the multiple hierarchical sheets. The plugin can not resolve this issue
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 804:Loading saved design
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 829:Source level is:['amp.kicad_sch']
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 834:Destination footprint is:'U2'
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 835:Destination levels available are:['amp.kicad_sch']
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 846:Destination level is:['amp.kicad_sch']
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 851:All sch files required are: ['amp.kicad_sch']
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 853:Getting current schematics hash
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 864:Source hash is:'f7dce8de162d5acfb72ea5eb42a9b7f8'
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 865:Destination hash is: 'f7dce8de162d5acfb72ea5eb42a9b7f8'
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 882:Get layout data from saved board
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1059:Replicating footprints
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1186:Replicating tracks
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1199:Net pairs are: [('Net-(U1B--)', 'Net-(U2B--)'), ('Net-(U1A--)', 'Net-(U2A--)'), ('VDD', 'VDD'), ('/Amp L/Out', '/Amp R/Out'), ('Net-(U1B-+)', 'Net-(U2B-+)'), ('VSS', 'VSS'), ('Net-(U1A-+)', 'Net-(U2A-+)'), ('/Amp L/In', '/Amp R/In'), ('GNDA', 'GNDA')]
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1240:Replicating zones
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1253:Net pairs are: [('Net-(U1B--)', 'Net-(U2B--)'), ('Net-(U1A--)', 'Net-(U2A--)'), ('VDD', 'VDD'), ('/Amp L/Out', '/Amp R/Out'), ('Net-(U1B-+)', 'Net-(U2B-+)'), ('VSS', 'VSS'), ('Net-(U1A-+)', 'Net-(U2A-+)'), ('/Amp L/In', '/Amp R/In'), ('GNDA', 'GNDA')]
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1318:Replicating text
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1353:Replicating drawings
+11-12 11:29:09 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 1366:Net pairs are: [('Net-(U1B--)', 'Net-(U2B--)'), ('Net-(U1A--)', 'Net-(U2A--)'), ('VDD', 'VDD'), ('/Amp L/Out', '/Amp R/Out'), ('Net-(U1B-+)', 'Net-(U2B-+)'), ('VSS', 'VSS'), ('Net-(U1A-+)', 'Net-(U2A-+)'), ('/Amp L/In', '/Amp R/In'), ('GNDA', 'GNDA')]

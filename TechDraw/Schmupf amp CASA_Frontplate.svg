@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="81.6mm" height="46.599999999999994mm" viewBox="0 0 81.6 46.599999999999994" xmlns="http://www.w3.org/2000/svg" version="1.1">
+<g id="Part__Part2DObjectPython" transform="translate(0.800000,45.800000) scale(1,-1)">
+<path id="Part__Part2DObjectPython_w0000"  d="M 7.75 45.00000000000005 A 7.75 7.75 0 0 1 0 37.25L 9.563017044911248e-12 7.75000000000005 A 7.75 7.75 0 0 1 7.75 9.61453e-12L 72.25 5.1514348342607263e-14 A 7.75 7.75 0 0 1 80 7.75L 80.0 37.25000000000005 A 7.75 7.75 0 0 1 72.25 45L 7.75 45.00000000000005 " stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<circle cx="6.25" cy="40.0" r="1.5" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="4.25" cy="4.5" r="1.5" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="75.75" cy="4.5" r="1.5" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="73.75" cy="40.0" r="1.5" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<path id="Part__Part2DObjectPython_w0005"  d="M 9.0 38.0 L 5.0 38.0 L 5.0 11.0 L 7.0 11.0 L 7.0 5.0 L 73.0 5.0 L 73.0 11.0 L 75.0 11.0 L 75.0 38.0 L 71.0 38.0 L 71.0 43.0 L 9.0 43.0 L 9.0 38.0 " stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none;fill-opacity:1;fill-rule: evenodd"/>
+<circle cx="17.615" cy="17.735" r="6.0" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="39.5" cy="12.595000044703003" r="3.2" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<circle cx="59.99999999999994" cy="16.095000000000002" r="6.0" stroke="#f1f3f5" stroke-width="0.7 px" style="stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none;stroke-linecap:square;fill:none"/>
+<title>b'Part__Part2DObjectPython'</title>
+</g>
+</svg>

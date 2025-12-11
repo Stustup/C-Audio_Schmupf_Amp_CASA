@@ -1,0 +1,326 @@
+(footprint "CLIFF_FC68125"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.27056 12.312388 180)
+		(layer "F.SilkS")
+		(uuid "0c567a70-de5b-48bb-a900-e5f73efda3e6")
+		(effects
+			(font
+				(size 0.640721 0.640721)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CLIFF_FC68125"
+		(at -1.484101 -5.601253 180)
+		(layer "F.Fab")
+		(uuid "2815c425-f76f-436f-86f0-98ef80119ae7")
+		(effects
+			(font
+				(size 0.640389 0.640389)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn-reichelt.de/documents/datenblatt/C160/4%20POLE%20JACKS.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "85d95150-fd61-4937-aa7e-a30c939d7607")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4460293a-0eb6-4824-b83c-a8ccfbb03492")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.55 -2)
+		(end -3.55 -0.228)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b069b1bb-9ed6-4df4-802c-80c93c711b06")
+	)
+	(fp_line
+		(start -3.55 -2)
+		(end 3.55 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21e0bbd6-795a-44c7-a393-e756b1406a51")
+	)
+	(fp_line
+		(start -3.55 8.072)
+		(end -3.55 3.028)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ff5c2f1-0f95-49d3-92f0-30d2e6681673")
+	)
+	(fp_line
+		(start 3.55 -2)
+		(end 3.55 -0.228)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f9996c1a-cf5b-4a59-a3ed-60080d801f29")
+	)
+	(fp_line
+		(start 3.55 8.072)
+		(end 3.55 3.028)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f6c70c4-760d-4d1d-ab26-75a1f57b4db4")
+	)
+	(fp_circle
+		(center 0 11.954)
+		(end -0.1 11.954)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "eb999318-ae3a-4016-961e-3e477f4f4c12")
+	)
+	(fp_line
+		(start -4.304 -4.75)
+		(end -4.304 11.204)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b85883ca-d480-43d3-9f9f-b664cce94506")
+	)
+	(fp_line
+		(start -4.304 11.204)
+		(end 4.304 11.204)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4ff39eef-3d22-4000-b86f-596f8229eb4d")
+	)
+	(fp_line
+		(start 4.304 -4.75)
+		(end -4.304 -4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0676ea5c-d2e6-4338-969e-690afbb13107")
+	)
+	(fp_line
+		(start 4.304 11.204)
+		(end 4.304 -4.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b2d0feb1-c0c5-459e-9c73-e74f99e528d1")
+	)
+	(fp_line
+		(start -3.55 -2)
+		(end -3 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06ff3d2f-8b9d-40ec-a5a4-3f03e0d30df7")
+	)
+	(fp_line
+		(start -3.55 10.6)
+		(end -3.55 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5dda553a-2979-42e4-96d6-9078cc1ab9c1")
+	)
+	(fp_line
+		(start -3 -4.5)
+		(end -3 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e43e5aa3-8aff-4950-a24f-03874c15704c")
+	)
+	(fp_line
+		(start -3 -2)
+		(end 3 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38539dfc-894e-4870-825a-06264adef211")
+	)
+	(fp_line
+		(start 3 -4.5)
+		(end -3 -4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "973a93cd-6aa7-4eac-868f-d36965601f75")
+	)
+	(fp_line
+		(start 3 -2)
+		(end 3 -4.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2c611cdc-2828-4f15-809d-2f73093c356a")
+	)
+	(fp_line
+		(start 3 -2)
+		(end 3.55 -2)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a38d4429-c95b-4678-a4c2-1c79043416ea")
+	)
+	(fp_line
+		(start 3.55 -2)
+		(end 3.55 10.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "15a05e32-1c17-4c0c-a573-cba4b4417868")
+	)
+	(fp_line
+		(start 3.55 10.6)
+		(end -3.55 10.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bb7e69b1-34f3-4f8b-9707-6a3db34be8b3")
+	)
+	(fp_circle
+		(center 0 11.954)
+		(end -0.1 11.954)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0b6cfe03-c510-4930-85f4-c7c9ab252969")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7a50d3ad-badd-44c7-9f41-6f1a8f2133ec")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 7 180)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "949ad47e-1943-4e99-ba19-3b52acc1e9eb")
+	)
+	(pad "R1" thru_hole oval
+		(at -2.85 9.5 180)
+		(size 1.108 2.216)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c1bb86bc-a2ca-4733-84a7-5eae502cb7b8")
+	)
+	(pad "R2" thru_hole oval
+		(at 2.85 9.5 180)
+		(size 1.108 2.216)
+		(drill oval 0.6 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2171a9ef-6dc0-4a95-b57c-612c3ae4131f")
+	)
+	(pad "S" thru_hole oval
+		(at 0 10.4 180)
+		(size 2.216 1.108)
+		(drill oval 1.4 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8061c64c-adef-4c3b-9bd4-a0d18db603d6")
+	)
+	(pad "T" thru_hole oval
+		(at -3.4 1.4 180)
+		(size 1.308 2.616)
+		(drill oval 0.8 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "be22d0cb-936f-41d7-8e3b-d4a938ae8228")
+	)
+	(pad "T" thru_hole oval
+		(at 3.4 1.4 180)
+		(size 1.308 2.616)
+		(drill oval 0.8 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "efb9f0fe-e14d-412a-aa72-0fb8cf7941ae")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/niels/Documents/DIY/Projects New/C-Audio Schmupf Amp (CASA)/External Stuff/cliff-fc68125-1.snapshot.1/Audio Jack 3.5 mm  Cliff FC68125.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
