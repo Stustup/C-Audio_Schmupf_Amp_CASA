@@ -5855,7 +5855,7 @@
 		)
 		(uuid "d6e3163a-c369-48dd-812d-56daf13b8ccb")
 	)
-	(text "TODO: DC Output Protection\nGain switch\n"
+	(text "TODO: DC Output Protection\n\n"
 		(exclude_from_sim no)
 		(at 179.324 170.688 0)
 		(effects
@@ -6067,6 +6067,12 @@
 		(uuid "7f7fe630-890a-46e3-a11d-218372243245")
 	)
 	(junction
+		(at 217.17 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "805c4bb3-83ec-423c-bb5e-000fce9b5f28")
+	)
+	(junction
 		(at 50.8 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6125,6 +6131,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af1b4a8a-0e19-4adc-ab95-6440083f5df6")
+	)
+	(junction
+		(at 217.17 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb03776-a726-40ba-a3f8-5fd1185a1d88")
 	)
 	(junction
 		(at 186.69 39.37)
@@ -6287,6 +6299,10 @@
 		(uuid "24ff185d-c45f-4765-9dfe-e4405979e417")
 	)
 	(no_connect
+		(at 200.66 143.51)
+		(uuid "2cc7ee77-6b2e-4a04-91fa-bc5844517234")
+	)
+	(no_connect
 		(at 39.37 36.83)
 		(uuid "31926b89-c36f-4298-b478-8074e7fa1bb0")
 	)
@@ -6295,8 +6311,8 @@
 		(uuid "68e52145-1f4a-427c-9a8d-05ef7998bf73")
 	)
 	(no_connect
-		(at 213.36 58.42)
-		(uuid "87c88d6c-b7aa-4cc0-9c1d-87c37f8f6161")
+		(at 213.36 143.51)
+		(uuid "757c11cb-7912-484e-a5e7-93c4fe292e8a")
 	)
 	(no_connect
 		(at 234.95 58.42)
@@ -6319,8 +6335,16 @@
 		(uuid "c128f5ae-bf48-4fcb-b110-6e6d6bb3f991")
 	)
 	(no_connect
+		(at 213.36 146.05)
+		(uuid "dc1f2541-e06d-461b-85f6-68bd3abb3ab9")
+	)
+	(no_connect
 		(at 255.27 43.18)
 		(uuid "e1de91a2-f881-41d8-9d74-b62d60ad6836")
+	)
+	(no_connect
+		(at 200.66 140.97)
+		(uuid "ed40a368-89eb-4959-8ec2-6d2947bba482")
 	)
 	(no_connect
 		(at 39.37 57.15)
@@ -7352,6 +7376,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 148.59) (xy 200.66 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d9faf5-f099-467a-af58-00fc2ab5e4fb")
+	)
+	(wire
+		(pts
 			(xy 55.88 162.56) (xy 53.34 162.56)
 		)
 		(stroke
@@ -7389,6 +7423,26 @@
 			(type default)
 		)
 		(uuid "4ca0df95-1f34-4c85-bc7c-312e7028af19")
+	)
+	(wire
+		(pts
+			(xy 189.23 146.05) (xy 189.23 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ccaabba-9abc-4e72-883d-acd745266452")
+	)
+	(wire
+		(pts
+			(xy 214.63 148.59) (xy 213.36 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf4d800-43c1-41fa-90f1-9db6288ab1ed")
 	)
 	(wire
 		(pts
@@ -7632,6 +7686,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 146.05) (xy 200.66 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5936d620-4916-44c1-b187-df6dec4a1aeb")
+	)
+	(wire
+		(pts
 			(xy 163.83 97.79) (xy 165.1 97.79)
 		)
 		(stroke
@@ -7839,6 +7903,16 @@
 			(type default)
 		)
 		(uuid "638064ff-82c7-4e4d-9295-fd3b0b88c3cb")
+	)
+	(wire
+		(pts
+			(xy 214.63 149.86) (xy 214.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63ab4d8b-9ab8-4f04-a44a-1667c01258af")
 	)
 	(wire
 		(pts
@@ -8339,6 +8413,16 @@
 			(type default)
 		)
 		(uuid "8a824861-5d83-4c1e-b891-96af6c8e5f6a")
+	)
+	(wire
+		(pts
+			(xy 222.25 140.97) (xy 213.36 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8aac5b7f-df02-4c48-9404-c52b1454510f")
 	)
 	(wire
 		(pts
@@ -9362,6 +9446,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 138.43) (xy 213.36 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0fa3e96-24e5-45f3-b451-9c4d9313ff4a")
+	)
+	(wire
+		(pts
 			(xy 111.76 22.86) (xy 111.76 30.48)
 		)
 		(stroke
@@ -9389,6 +9483,16 @@
 			(type default)
 		)
 		(uuid "d353ebb4-e94b-432c-9b22-a894b64c77fb")
+	)
+	(wire
+		(pts
+			(xy 193.04 138.43) (xy 200.66 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37234c0-d8ee-4348-8242-8977125b1b71")
 	)
 	(wire
 		(pts
@@ -9991,7 +10095,7 @@
 		(uuid "69b92209-2d3e-43c2-ac8e-87c321062747")
 	)
 	(label "sig_in"
-		(at 186.69 139.7 0)
+		(at 193.04 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10011,7 +10115,7 @@
 		(uuid "75712ddc-419d-4406-a0b4-5bf2f2858825")
 	)
 	(label "PSU_EN"
-		(at 186.69 132.08 0)
+		(at 193.04 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10061,12 +10165,12 @@
 		(uuid "94251d49-bd7b-46cc-9199-ac4ae53fd54a")
 	)
 	(label "sig_mute"
-		(at 186.69 134.62 0)
+		(at 222.25 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9e257b42-2d7d-40cc-91bc-98de45ec1828")
 	)
@@ -10081,12 +10185,12 @@
 		(uuid "a0ce5b41-22bb-4039-9143-bfae4971359e")
 	)
 	(label "sig_gain"
-		(at 186.69 137.16 0)
+		(at 222.25 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c98d59d5-9634-4084-8c4e-1d00aa3c548f")
 	)
@@ -11989,6 +12093,74 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "26da34d2-517b-4b95-85a8-304b030c7f01")
+		(property "Reference" "TP1"
+			(at 218.44 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d8ae25f-3f78-484c-b355-ead9283b449f")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -15615,7 +15787,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 186.69 128.27 0)
+		(at 189.23 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15624,7 +15796,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e64990e-7744-41de-84bd-32fece7e1076")
 		(property "Reference" "#PWR029"
-			(at 186.69 132.08 0)
+			(at 189.23 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15633,7 +15805,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 186.69 123.19 0)
+			(at 189.23 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15641,7 +15813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 128.27 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15650,7 +15822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 128.27 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15659,7 +15831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 186.69 128.27 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18205,16 +18377,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 123.19 0)
+		(at 214.63 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f427b3f5-ebcc-46b6-b4ba-5a579885e8f6")
 		(property "Reference" "#PWR033"
-			(at 191.77 129.54 0)
+			(at 214.63 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18223,7 +18394,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 128.27 0)
+			(at 217.932 153.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18231,7 +18402,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 123.19 0)
+			(at 214.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18240,7 +18411,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 123.19 0)
+			(at 214.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18249,7 +18420,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 123.19 0)
+			(at 214.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18775,6 +18946,74 @@
 			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
 					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 217.17 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd48ac96-51e3-46d2-a1a5-5d7b0286bf74")
+		(property "Reference" "TP4"
+			(at 218.44 49.784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 218.44 52.324 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Plated_Hole_D2.0mm"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 222.25 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ac5e65f-5930-42be-a154-fe2028cc30d2")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
