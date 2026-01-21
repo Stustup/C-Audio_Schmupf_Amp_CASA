@@ -533,6 +533,12 @@
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 135.89 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfc1f22b-83b3-408f-86e1-4176b170ed91")
+	)
 	(wire
 		(pts
 			(xy 144.78 85.09) (xy 148.59 85.09)
@@ -545,7 +551,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 130.81 92.71)
+			(xy 128.27 92.71) (xy 129.54 92.71)
 		)
 		(stroke
 			(width 0)
@@ -555,13 +561,23 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 92.71) (xy 137.16 92.71)
+			(xy 134.62 92.71) (xy 135.89 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5bdc7cc8-29e7-43a5-a693-d73018b73420")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 137.16 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d59ed54-5635-4914-b638-c4f8188ab09a")
 	)
 	(wire
 		(pts
@@ -575,6 +591,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 99.06) (xy 135.89 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29ff4b2-a5f3-452c-802b-2131acc5aa2f")
+	)
+	(wire
+		(pts
 			(xy 144.78 97.79) (xy 144.78 99.06)
 		)
 		(stroke
@@ -582,6 +608,16 @@
 			(type default)
 		)
 		(uuid "c0cb64b6-1f41-476d-9975-6a65bb396a87")
+	)
+	(wire
+		(pts
+			(xy 135.89 92.71) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e71f66c0-7ed3-43cd-8a3e-b1eb6232b3ba")
 	)
 	(hierarchical_label "relay_out"
 		(shape input)
@@ -773,8 +809,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 135.89 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cc01684-cf90-437b-bb5e-480abf90e76a")
+		(property "Reference" "#PWR038"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3dc7a630-3d8c-4f18-871a-2cfdd1ae494d")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/048d814c-77b2-4886-8008-74f618d4e369"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/603a59b1-806a-48c1-b765-f4a9754a3ecb"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
-		(at 133.35 92.71 90)
+		(at 132.08 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -782,7 +892,7 @@
 		(dnp no)
 		(uuid "e1447768-e392-4f3c-a6b8-6ce828ab93b4")
 		(property "Reference" "R39"
-			(at 133.35 94.615 90)
+			(at 132.08 94.615 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +900,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 133.35 96.52 90)
+			(at 132.08 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +908,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 133.35 92.71 0)
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +917,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 92.71 0)
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 92.71 0)
+			(at 132.08 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,6 +952,81 @@
 				)
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
 					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 135.89 96.52 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f23452ea-1114-4007-93cd-147f33330734")
+		(property "Reference" "R6"
+			(at 138.43 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 138.938 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c960aa18-7867-487b-a8c3-1ae6c9ca9178")
+		)
+		(pin "2"
+			(uuid "a542bf3f-83a2-4187-b527-b597f88328f4")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/048d814c-77b2-4886-8008-74f618d4e369"
+					(reference "R6")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/603a59b1-806a-48c1-b765-f4a9754a3ecb"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
+					(reference "R19")
 					(unit 1)
 				)
 			)
