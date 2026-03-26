@@ -878,7 +878,7 @@
 			(uuid "c2ed2324-ffcc-4181-9017-d3f19f1e6f21")
 		)
 		(instances
-			(project ""
+			(project "C-Audio Schmupf Amp (CASA)"
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/3232c9d3-5428-4658-b63a-c06f8eddd9a4"
 					(reference "#PWR016")
 					(unit 1)

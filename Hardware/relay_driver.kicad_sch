@@ -431,7 +431,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "power:GNDA"
 			(power)
 			(pin_numbers
 				(hide yes)
@@ -452,7 +452,7 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "GND"
+			(property "Value" "GNDA"
 				(at 0 -3.81 0)
 				(effects
 					(font
@@ -478,7 +478,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
 				(at 0 0 0)
 				(effects
 					(font
@@ -496,7 +496,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GNDA_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -510,7 +510,7 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
+			(symbol "GNDA_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -601,16 +601,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0cb64b6-1f41-476d-9975-6a65bb396a87")
-	)
-	(wire
-		(pts
 			(xy 135.89 92.71) (xy 135.89 93.98)
 		)
 		(stroke
@@ -618,6 +608,16 @@
 			(type default)
 		)
 		(uuid "e71f66c0-7ed3-43cd-8a3e-b1eb6232b3ba")
+	)
+	(wire
+		(pts
+			(xy 144.78 97.79) (xy 144.78 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecdf2a77-80a6-4b59-b4ab-87be2b291c9a")
 	)
 	(hierarchical_label "relay_out"
 		(shape input)
@@ -640,6 +640,154 @@
 			(justify right)
 		)
 		(uuid "8e5068d6-ccbd-42b1-8807-6ab183576ee5")
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 144.78 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195c05b0-2f36-43ee-97e5-77e7d6b1d84a")
+		(property "Reference" "#PWR038"
+			(at 144.78 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4c20b8c-ab32-42b7-a146-d5ef7416dee5")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/048d814c-77b2-4886-8008-74f618d4e369"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/603a59b1-806a-48c1-b765-f4a9754a3ecb"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 135.89 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34b957e7-146b-4de5-906b-93df72b0f432")
+		(property "Reference" "#PWR034"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 135.89 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 135.89 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2bd6a4cc-b1fe-49b1-81b9-948b3edf1962")
+		)
+		(instances
+			(project "C-Audio Schmupf Amp (CASA)"
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/048d814c-77b2-4886-8008-74f618d4e369"
+					(reference "#PWR034")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/603a59b1-806a-48c1-b765-f4a9754a3ecb"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Transistor_FET:BSS138")
@@ -729,154 +877,6 @@
 				)
 				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
 					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87246a22-3d77-4c78-8bfb-f9c7f471d640")
-		(property "Reference" "#PWR053"
-			(at 144.78 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d967ce3d-31c0-4c9a-bdf0-0de74defe1bc")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/048d814c-77b2-4886-8008-74f618d4e369"
-					(reference "#PWR053")
-					(unit 1)
-				)
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/603a59b1-806a-48c1-b765-f4a9754a3ecb"
-					(reference "#PWR054")
-					(unit 1)
-				)
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 135.89 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9cc01684-cf90-437b-bb5e-480abf90e76a")
-		(property "Reference" "#PWR038"
-			(at 135.89 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.89 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dc7a630-3d8c-4f18-871a-2cfdd1ae494d")
-		)
-		(instances
-			(project "C-Audio Schmupf Amp (CASA)"
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/048d814c-77b2-4886-8008-74f618d4e369"
-					(reference "#PWR038")
-					(unit 1)
-				)
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/603a59b1-806a-48c1-b765-f4a9754a3ecb"
-					(reference "#PWR039")
-					(unit 1)
-				)
-				(path "/f39cb88c-31d4-4ee4-8fdb-dd143b08caa6/8ab77bb1-39d0-41ac-8714-c12c461e388b"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)
